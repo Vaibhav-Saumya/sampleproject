@@ -1,0 +1,50 @@
+/*Navigation Section Starts*/
+
+.nav-design {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.nav-color {
+  color: blue;
+}
+
+/*Navigation Section Starts*/
+
+/*Modal Section Starts*/
+/*Modal Section Starts*/
+
+/*Header Section Starts*/
+
+.container-header {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.header-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*Header Section Starts*/
+
+/*Body Content Section Starts*/
+
+.content-center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.content-color {
+  font-family: 'Nunito Sans', sans-serif;
+  color: gray;
+}
+
+/*Body Content Section Starts*/
