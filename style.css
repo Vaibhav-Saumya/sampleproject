@@ -57,6 +57,7 @@
     left: 1161px;
     top: 26px;
     font-style: normal;
+    font-family: 'Libre Baskerville', serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 21px;
@@ -246,7 +247,7 @@
 
 .banner-img{
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%);;
-    padding: 50px;
+    padding: 125px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -255,21 +256,21 @@
 }
 
 .banner-img img{
-    width: 99vw;
-    height: 77vh;
+    width: 100vw;
+    height: 70vh;
 }
 
-.computer-1{
+.computer-1{-
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 25px;
     color: #FFFFFF;
 }
 
 .computer-2{
     font-weight: normal;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 25px;
     color: #FFFFFF;
 }
@@ -419,11 +420,6 @@
     padding-top: 18px;
 }
 
-.second-hr{
-    width: 75%;
-    border: 1px solid #000000;
-}
-
 .note{
     display: flex;
     padding-top: 50px;
@@ -493,21 +489,6 @@
 .row{
     padding-bottom: 20px;
 }
-
-.edit-button{
-    display: none;
-    position: fixed;
-    left: 1300px;
-    top: 550px;
-}
-
-.edit-button button{
-    border-radius: 50px;
-    background: #F0568A;
-    height: 50px;
-    width: 50px;
-}
-
 
 @media only screen and (max-width: 1000px){
 
@@ -809,7 +790,7 @@
     .banner-img{
         width: 100vw;
         height: 70vh;
-        padding: 50px;
+        padding: 55px;
     }
 
     .banner-img img{
@@ -819,12 +800,12 @@
     }
 
     .computer-1{
-        font-size: 17px;
+        font-size: 30px;
         line-height: 3px;
     }
 
     .computer-2{
-        font-size: 12px;
+        font-size: 20px;
         line-height: 3px;
         padding-top: 10px;
     }
@@ -911,13 +892,6 @@
     .share button{
         width: 85px;
         height: 35px;
-    }
-
-    .edit-button{
-        display: block;
-        position: fixed;
-        left: 77%;
-        top: 80%;
     }
 
 }
