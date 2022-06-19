@@ -121,6 +121,7 @@
 
 .create-account-modal-right{
     display: flex;
+    justify-content: center;
     padding-top: 10px;
 }
 
@@ -264,14 +265,12 @@
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
-    line-height: 25px;
     color: #FFFFFF;
 }
 
 .computer-2{
     font-weight: normal;
     font-size: 20px;
-    line-height: 25px;
     color: #FFFFFF;
 }
 
@@ -520,6 +519,7 @@
     }
 
     .modal-header{
+      align-items: center;
         padding-bottom: 0px;
     }
 
@@ -552,7 +552,7 @@
     .signup-buttons-mobile button{
         width: 320px;
         height: 38px;
-        border-radius: 20px;
+        border-radius: 0px;
     }
 
     .create-account-button{
@@ -693,7 +693,7 @@
     .signup-buttons-mobile button{
         width: 320px;
         height: 38px;
-        border-radius: 20px;
+        border-radius: 0px;
     }
 
     .create-account-button{
@@ -790,6 +790,7 @@
     .banner-img{
         width: 100vw;
         height: 70vh;
+        padding: 50px
     }
 
     .banner-img img{
@@ -800,12 +801,10 @@
 
     .computer-1{
         font-size: 30px;
-        line-height: 3px;
     }
 
     .computer-2{
         font-size: 20px;
-        line-height: 3px;
         padding-top: 10px;
     }
 
